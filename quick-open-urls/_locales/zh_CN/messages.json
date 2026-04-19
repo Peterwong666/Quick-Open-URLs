@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "Quick-Open-URLs",
+    "description": "扩展名称"
+  },
+  "extensionDescription": {
+    "message": "通过快捷键快速打开选中的链接，支持懒加载、标签组、容器等功能。",
+    "description": "扩展描述"
+  },
+  "commandDescription": {
+    "message": "从选中文本中打开所有URL",
+    "description": "命令描述"
+  },
+  "optionsTitle": {
+    "message": "快捷打开链接 - 设置",
+    "description": "选项页面标题"
+  },
+  "welcomeText": {
+    "message": "修改以下选项，然后使用快捷键 <strong>⌘+Shift+E</strong> (Mac) 或 <strong>Ctrl+Shift+E</strong> (Win) 即可从选中文本中批量打开链接。",
+    "description": "选项页面欢迎文本"
+  },
+  "sectionBehavior": {
+    "message": "📋 打开行为",
+    "description": "打开行为部分标题"
+  },
+  "lazyLoadLabel": {
+    "message": "懒加载模式 (标签被选中时才加载)",
+    "description": "懒加载复选框标签"
+  },
+  "randomLabel": {
+    "message": "随机顺序打开",
+    "description": "随机顺序复选框标签"
+  },
+  "reverseLabel": {
+    "message": "逆序打开",
+    "description": "逆序复选框标签"
+  },
+  "deduplicateLabel": {
+    "message": "忽略重复URL",
+    "description": "去重复选框标签"
+  },
+  "searchQueryLabel": {
+    "message": "将非URL文本作为搜索引擎查询",
+    "description": "搜索查询复选框标签"
+  },
+  "sectionTabGroup": {
+    "message": "📂 标签组 (Tab Group)",
+    "description": "标签组部分标题"
+  },
+  "tabGroupInfo": {
+    "message": "选择“新建标签组”会将所有新标签归入一个新组；无分组则不进行分组。",
+    "description": "标签组信息文本"
+  },
+  "sectionContainer": {
+    "message": "🍃 容器 (Containers)",
+    "description": "容器部分标题"
+  },
+  "containerInfo": {
+    "message": "需要浏览器启用容器功能。选择“新建容器”会自动创建临时容器。",
+    "description": "容器信息文本"
+  },
+  "sectionShortcuts": {
+    "message": "⌨️ 快捷键修改",
+    "description": "快捷键部分标题"
+  },
+  "manageShortcutsButton": {
+    "message": "管理扩展快捷键",
+    "description": "管理快捷键按钮文本"
+  },
+  "shortcutsInfo": {
+    "message": "点击按钮跳转到浏览器扩展快捷键设置页面，可自定义按键。",
+    "description": "快捷键信息文本"
+  },
+  "saveButton": {
+    "message": "💾 保存设置",
+    "description": "保存按钮文本"
+  },
+  "noSelectionText": {
+    "message": "无标签组",
+    "description": "无标签组选项"
+  },
+  "newSelectionText": {
+    "message": "新建标签组",
+    "description": "新建标签组选项"
+  },
+  "unnamedGroup": {
+    "message": "未命名组",
+    "description": "默认组名称（当未命名时）"
+  },
+  "noContainerText": {
+    "message": "无容器",
+    "description": "无容器选项"
+  },
+  "newContainerText": {
+    "message": "新建容器",
+    "description": "新建容器选项"
+  }
+}

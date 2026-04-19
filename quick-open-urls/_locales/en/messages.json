@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "Quick-Open-URLs",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Open selected URLs with keyboard shortcuts, supports lazy loading, tab groups, containers, etc.",
+    "description": "Description of the extension"
+  },
+  "commandDescription": {
+    "message": "Open all URLs from selected text",
+    "description": "Command description"
+  },
+  "optionsTitle": {
+    "message": "Quick-Open-URLs - Settings",
+    "description": "Options page title"
+  },
+  "welcomeText": {
+    "message": "Modify the following options, then use the shortcut <strong>⌘+Shift+E</strong> (Mac) or <strong>Ctrl+Shift+E</strong> (Win) to batch open links from selected text.",
+    "description": "Welcome text on options page"
+  },
+  "sectionBehavior": {
+    "message": "Opening Behavior",
+    "description": "Section title for opening behavior"
+  },
+  "lazyLoadLabel": {
+    "message": "Lazy Loading Mode (load when tab is selected)",
+    "description": "Lazy loading checkbox label"
+  },
+  "randomLabel": {
+    "message": "Open in Random Order",
+    "description": "Random order checkbox label"
+  },
+  "reverseLabel": {
+    "message": "Open in Reverse Order",
+    "description": "Reverse order checkbox label"
+  },
+  "deduplicateLabel": {
+    "message": "Ignore Duplicate URLs",
+    "description": "Deduplicate checkbox label"
+  },
+  "searchQueryLabel": {
+    "message": "Treat non-URL text as search engine query",
+    "description": "Search query checkbox label"
+  },
+  "sectionTabGroup": {
+    "message": "Tab Group",
+    "description": "Section title for tab group"
+  },
+  "tabGroupInfo": {
+    "message": "Select \"New Tab Group\" to put all new tabs into a new group; no grouping means no grouping.",
+    "description": "Tab group info text"
+  },
+  "sectionContainer": {
+    "message": "Container",
+    "description": "Section title for container"
+  },
+  "containerInfo": {
+    "message": "Container feature needs to be enabled in browser. Select \"New Container\" to automatically create temporary containers.",
+    "description": "Container info text"
+  },
+  "sectionShortcuts": {
+    "message": "Keyboard Shortcuts",
+    "description": "Section title for shortcuts"
+  },
+  "manageShortcutsButton": {
+    "message": "Manage Extension Shortcuts",
+    "description": "Manage shortcuts button text"
+  },
+  "shortcutsInfo": {
+    "message": "Click the button to jump to browser extension shortcut settings where you can customize keys.",
+    "description": "Shortcuts info text"
+  },
+  "saveButton": {
+    "message": "💾 Save Settings",
+    "description": "Save button text"
+  },
+  "noSelectionText": {
+    "message": "No Tab Group",
+    "description": "No tab group option"
+  },
+  "newSelectionText": {
+    "message": "New Tab Group",
+    "description": "New tab group option"
+  },
+  "unnamedGroup": {
+    "message": "Unnamed Group",
+    "description": "Default group name when unnamed"
+  },
+  "noContainerText": {
+    "message": "No Container",
+    "description": "No container option"
+  },
+  "newContainerText": {
+    "message": "New Container",
+    "description": "New container option"
+  }
+}

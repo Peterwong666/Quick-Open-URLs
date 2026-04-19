@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "Quick-Open-URLs",
+  "version": "1.0.0",
+  "default_locale": "zh_CN",
+  "description": "通过快捷键快速打开选中文本中的所有链接，支持懒加载、标签组、容器等。 ",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "tabGroups",
+    "scripting",
+    "contextMenus"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "open-selected-urls": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "使用快捷键打开选中文本中的所有URL"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["lazyloading.html", "_locales/en/messages.json", "_locales/zh_CN/messages.json", "_locales/localization.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Quick-Open-URLs"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lazy Loading...</title>
+  <style>body { font-family: sans-serif; padding: 2rem; text-align: center; }</style>
+</head>
+<body>
+<div>加载中…</div>
+<script>
+  (function() {
+    const targetUrl = window.location.hash.substring(1);
+    if (targetUrl) {
+      document.title = `[${targetUrl}]`;
+      window.addEventListener("focus", () => {
+        window.location.replace(targetUrl);
+      }, { once: true });
+    } else {
+      document.body.innerText = "无效链接！";
+    }
+  })();
+</script>
+</body>
+</html>

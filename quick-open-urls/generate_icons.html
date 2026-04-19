@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html><body>
+<canvas id="c16" width="16" height="16"></canvas>
+<script>
+  function makeIcon(ctx, color) { ctx.fillStyle = color; ctx.fillRect(0,0,16,16); ctx.fillStyle='white'; ctx.font='bold 10px sans-serif'; ctx.fillText('➚',4,12); }
+  const c16 = document.getElementById('c16').getContext('2d');
+  makeIcon(c16, '#0f172a');
+  const link = document.createElement('a');
+  link.download = 'icon16.png';
+  link.href = c16.canvas.toDataURL();
+  link.click();
+</script>
+</body></html>
