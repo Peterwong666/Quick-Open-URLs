@@ -2,7 +2,19 @@
 In just two steps, you can quickly open multiple URLs or URLs in text format
 
 
+![how to use](./quick-open-urls/img/how2use.png)
+
+
+
 Quickly open all links in selected text using keyboard shortcuts, supporting lazy loading, tab groups, containers, etc.
+
+
+![setting1](./quick-open-urls/img/setting1.png)
+
+![setting2](./quick-open-urls/img/setting2.png)
+
+![setting3](./quick-open-urls/img/setting3.png)
+
 
 ## Latest Update
 
